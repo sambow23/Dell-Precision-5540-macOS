@@ -8,7 +8,16 @@
 | Network  | Intel Wireless-AC 9260  |
 | Storage  | Samsung SSD 990 PRO 2TB |
 | OS  | NixOS, macOS Sequoia 15.0.1 |
-| Screen  | 15.6" 3840x2160 Touchscreen  |
+| Screen  | 15.6" 3840x2160 Touchscreen  | 
+
+## EFI Vars
+#### Use with `modGRUBShell` tool In OpenCore
+|  Var | Offset |
+| ------------- | ------------- |
+| setup_var_cv | Setup 0x6ED 0x01 0x00 |
+| setup_var | 0xA10 0x02 |
+| setup_var | 0xA11 0x03 |
+| setup_var_3 | 0x789 0x00 |
 
 ## Hardware compatibility
 
