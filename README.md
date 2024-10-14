@@ -6,7 +6,7 @@
 | GPU  | Intel UHD Graphics 630  |
 | dGPU  | NVIDIA Quadro T1000 Mobile 4GB  |
 | Network  | Intel Wireless-AC 9260  |
-| Storage  | PC601 NVMe SK hynix 512GB |
+| Storage  | Samsung SSD 990 PRO 2TB |
 | OS  | NixOS, macOS Sequoia 15.0.1 |
 | Screen  | 15.6" 3840x2160 Touchscreen  |
 
