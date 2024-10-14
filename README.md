@@ -35,14 +35,16 @@
 - Battery percentage
 - Sleep
 - HDMI Out
+- Thunderbolt (sort of)
+  -  (Needs BIOS Assist enabled in the BIOS right now, hotplug is non-functional)
+- Internal Audio (Speakers, Headphones, Microphone)
 
 #### Untested
 - iCloud Services
 - Bluetooth (no kext installed yet)
 - Touchscreen
-- Thunderbolt
+
 
 #### Not working
 - Fingerprint Sensor
-- Internal Audio (Speakers, Headphones, Microphone)
 - dGPU (disabled)
