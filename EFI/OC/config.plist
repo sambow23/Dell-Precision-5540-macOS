@@ -24,14 +24,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-TBOLT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-I2CX.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -311,8 +303,6 @@
 				<data>BAAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
-				<key>rps-control</key>
-				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1016,6 +1006,28 @@
 				<string>CFGLock.efi</string>
 				<key>Path</key>
 				<string>CFGLock.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>TbtForcePower</string>
+				<key>Path</key>
+				<string>TbtForcePower.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
