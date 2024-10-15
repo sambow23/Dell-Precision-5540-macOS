@@ -35,8 +35,7 @@
 - Battery percentage
 - Sleep
 - HDMI Out
-- Thunderbolt (sort of)
-  -  (Needs BIOS Assist enabled in the BIOS right now, hotplug is non-functional)
+- Thunderbolt [(sort of)](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/1)
 - Internal Audio (Speakers, Headphones, Microphone)
 
 #### Untested
