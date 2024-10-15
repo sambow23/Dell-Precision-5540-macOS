@@ -1,2 +1,9 @@
 
 .DS_Store
+EFI/Dell/Bios/Recovery/BIOS_CUR.RCV
+EFI/Dell/logs/diags_current.xml
+EFI/Dell/logs/diags_previous.xml
+EFI/ubuntu/fw/fwupd-417d4c2a-87d1-4d7c-bcea-322041f2d5a3.cap
+EFI/ubuntu/fwupdx64.efi
+EFI/Dell/logs/diags_current.xml
+EFI/Dell/logs/diags_previous.xml
