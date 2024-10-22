@@ -19,6 +19,17 @@
 | setup_var | 0xA11 0x03 |
 | setup_var_3 | 0x789 0x00 |
 
+## Thunderbolt
+|  Thunderbolt Adapter Configuration ||
+| ------------- | ------------- |
+| Thunderbolt | ✅ |
+| Thunderbolt Boot Support | ✅ |
+| No Security | ✅ |
+
+|  Thunderbolt Auto Switch ||
+| ------------- | ------------- |
+| Auto Switch | ✅ |
+
 ## Hardware compatibility
 
 #### What works
