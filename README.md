@@ -35,15 +35,14 @@
 - Battery percentage
 - Sleep
 - HDMI Out
-- Thunderbolt [(sort of)](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/1)
+- Thunderbolt
 - Internal Audio (Speakers, Headphones, Microphone)
 
 #### Untested
 - iCloud Services
 - Bluetooth (no kext installed yet)
-- Touchscreen
-
 
 #### Not working
 - Fingerprint Sensor
 - dGPU (disabled)
+- Touchscreen
