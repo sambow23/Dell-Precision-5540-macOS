@@ -22,8 +22,9 @@
 ## Thunderbolt
 |  Thunderbolt Adapter Configuration ||
 | ------------- | ------------- |
-| Thunderbolt | ✅ |
-| Thunderbolt Boot Support | ✅ |
+| Enable Thunderbolt™ Technology Support | ✅ |
+| Enable Thunderbolt™ Boot Support | ✅ |
+| Enable Thunderbolt™ Adapter Pre-boot Modules | ✅ |
 | No Security | ✅ |
 
 |  Thunderbolt Auto Switch ||
