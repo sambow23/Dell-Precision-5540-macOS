@@ -7,7 +7,7 @@
 | dGPU  | NVIDIA Quadro T1000 Mobile 4GB  |
 | Network  | Intel Wireless-AC 9260  |
 | Storage  | Samsung SSD 990 PRO 2TB |
-| OS  | NixOS, macOS Sequoia 15.0.1 |
+| OS  | NixOS, macOS Sequoia 15.0.1, Windows 11 24H2 LTSC |
 | Screen  | 15.6" 3840x2160 Touchscreen  | 
 
 ## EFI Vars
