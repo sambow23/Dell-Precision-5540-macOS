@@ -1,4 +1,6 @@
 # Dell Precision 5540
+<img src="https://i.imgur.com/Uql3mVu.png" width="650">
+
 | Hardware  | |
 | ------------- | ------------- |
 | CPU  | Intel® Core™ i7-9850H |
