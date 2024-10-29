@@ -43,6 +43,7 @@
 - All USB ports
 - USB-C Video
 - Trackpad
+- Touchscreen 
 - FN Keys
 - Webcam
 - Screen Brightness
@@ -57,6 +58,5 @@
 - Bluetooth (no kext installed yet)
 
 #### Not working
-- Fingerprint Sensor
+- Fingerprint Sensor (no support)
 - dGPU (disabled)
-- Touchscreen
