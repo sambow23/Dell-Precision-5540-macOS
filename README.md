@@ -22,6 +22,14 @@
 | setup_var_3 | 0x789 0x00 |
 
 ## Thunderbolt
+> [!CAUTION]
+> If you plug in a Thunderbolt dock with a PCIe-based NIC while already booted into macOS, the system will freeze and kernel panic. For these kind of docks, make sure it's already plugged in before booting macOS.
+
+> [!NOTE]  
+> If using a Thunderbolt dock such as the CalDigit TS3 Plus or above, the Intel I210 NIC causes system instability when active, it's suggested you either unplug the ethernet cable into the dock or disable the DriverKit kext using these boot arguments.
+> 
+> `dk.e1000=0 e1000=0`
+### Thunderbolt BIOS Settings
 |  Thunderbolt Adapter Configuration ||
 | ------------- | ------------- |
 | Enable Thunderbolt™ Technology Support | ✅ |
@@ -32,6 +40,10 @@
 |  Thunderbolt Auto Switch ||
 | ------------- | ------------- |
 | Auto Switch | ✅ |
+
+## External Displays
+> [!CAUTION]  
+> When plugging in external displays, the internal display will become blank and strobe the backlight at a high frequency. It can be temporarily fixed by closing the lid for at least 10 seconds and then opening it back up.
 
 ## Hardware compatibility
 
