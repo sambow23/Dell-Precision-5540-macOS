@@ -45,9 +45,12 @@
 | ------------- | ------------- |
 | Auto Switch | ✅ |
 
-## External Displays
-> [!CAUTION]  
-> When plugging in external displays, the internal display will become blank and strobe the backlight at a high frequency. It can be temporarily fixed by closing the lid for at least 10 seconds and then opening it back up.
+## Issues
+#### External Displays
+When plugging in external displays, the internal display will become blank and strobe the backlight at a high frequency. It can be temporarily fixed by closing the lid for at least 10 seconds and then opening it back up.
+
+#### USB Audio Stutter
+There is mild to severe audio stutter when using a USB audio device, I have not yet determined the cause but the built-in audio does not have this issue.
 
 ## Hardware compatibility
 
