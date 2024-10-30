@@ -70,6 +70,8 @@ There is mild to severe audio stutter when using a USB audio device, I have not 
 - Sleep
 - HDMI Out
 - Thunderbolt
+  - eGPUs ✅
+  - Thunderbolt Docks ✅
 - Internal Audio (Speakers, Headphones, Microphone)
 
 #### Untested
