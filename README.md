@@ -22,11 +22,6 @@
 | setup_var_3 | 0x789 0x00 |
 
 ## Thunderbolt
-> [!CAUTION]
-> If you plug in a Thunderbolt dock with a PCIe-based NIC while already booted into macOS, the system will freeze and kernel panic. For these kind of docks, make sure it's already plugged in before booting macOS.
-> 
-> There is stability issues with hotplug depending on the Thunderbolt device used, so YMMV
-
 > [!NOTE]  
 > If using a Thunderbolt dock such as the CalDigit TS3 Plus or above, the Intel I210 NIC causes system instability when active, it's suggested you either unplug the ethernet cable from the dock or disable the DriverKit kext using these boot arguments.
 > 
