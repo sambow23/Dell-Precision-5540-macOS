@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
 			</dict>
@@ -96,11 +96,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-TB3.aml</string>
+				<string>Hotplug for the Thunderbolt Controller, eGPUs do not work at the moment</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-TB3.aml</string>
+				<string>SSDT-TB-5540.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -109,14 +109,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-TSCR.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-TYPC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TYPC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -149,15 +141,15 @@
 				<key>All</key>
 				<false/>
 				<key>Comment</key>
-				<string>Drop xh_cfhd4</string>
+				<string>Drop DMAR Table</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>OemTableId</key>
-				<data>eGhfY2ZoZDQ=</data>
+				<data>AAAAAA==</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>RE1BUg==</data>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -172,7 +164,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>ABQRX1NUQQ==</data>
 				<key>Limit</key>
@@ -202,7 +194,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>JV9DUlM=</data>
 				<key>Limit</key>
@@ -232,7 +224,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>IgQAeQA=</data>
 				<key>Limit</key>
@@ -262,7 +254,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>IgABeQA=</data>
 				<key>Limit</key>
@@ -292,7 +284,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>IgEAeQA=</data>
 				<key>Limit</key>
@@ -579,7 +571,7 @@
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>Samsung SSD 990 PRO 2TB</string>
+				<string>WD Black SN850X NVMe SSD</string>
 				<key>pci-aspm-default</key>
 				<data>AwEAAA==</data>
 			</dict>
@@ -642,6 +634,37 @@
 			<dict>
 				<key>layout-id</key>
 				<data>HgAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Cannon Lake PCH Shared SRAM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0/0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Intel Alpine Ridge DSL6340 Thunderbolt 3 NHI</string>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0/0,0/2,0/0,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>JHL6340 Thunderbolt 3 USB 3.1 Controller</string>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1233,7 +1256,7 @@
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>DisableIoMapperMapping</key>
-			<true/>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
