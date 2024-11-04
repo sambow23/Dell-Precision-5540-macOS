@@ -47,6 +47,9 @@ When plugging in external displays, the internal display will become blank and s
 #### System Stutter
 There is mild to severe stutter every few minutes, I believe it has to do the with Samsung NVMe drive I was using, still testing the new WD drive.
 
+#### Headphones
+The combo jack audio gets distorted after waking from sleep, a reboot is required to workaround the issue. Will investigate eventually.
+
 ## Hardware compatibility
 
 #### What works
