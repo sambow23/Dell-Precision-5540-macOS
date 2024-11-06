@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-DGPU.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DGPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -133,6 +125,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-Bridge.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -581,8 +581,6 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
-				<key>agdpmod</key>
-				<string>vit9696</string>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
 				<key>device_type</key>
@@ -665,6 +663,19 @@
 				<string>JHL6340 Thunderbolt 3 USB 3.1 Controller</string>
 				<key>pci-aspm-default</key>
 				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,0/0,0</string>
+				<key>device_type</key>
+				<string>3D controller</string>
+				<key>disable-gpu</key>
+				<true/>
+				<key>model</key>
+				<string>TU117GLM [Quadro T1000 Mobile]</string>
+				<key>pci-aspm-default</key>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -829,24 +840,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Controller</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CpuTscSync.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CpuTscSync</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
