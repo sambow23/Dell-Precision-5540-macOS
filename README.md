@@ -45,7 +45,7 @@
 When plugging in external displays, the internal display will become blank and strobe the backlight at a high frequency. It can be temporarily fixed by closing the lid for at least 10 seconds and then opening it back up. EDID patching may fix this.
 
 #### System Stutter
-There is mild to severe stutter every few minutes, I believe it has to do the with Samsung NVMe drive I was using, still testing the new WD drive.
+There is mild to severe stutter every few minutes, [no solution found so far](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/2)
 
 #### Headphones
 The combo jack audio gets distorted after waking from sleep, a reboot is required to workaround the issue. Will investigate eventually.
