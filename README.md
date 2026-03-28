@@ -8,16 +8,14 @@
 | GPU  | Intel UHD Graphics 630  |
 | dGPU  | NVIDIA Quadro T1000 Mobile 4GB  |
 | Network  | Intel Wireless-AC 9260  |
-| Storage  | WD_BLACK SN850X 2TB |
-| OS  | NixOS, macOS Sequoia 15.1, Windows 11 24H2 LTSC |
+| Storage  | Samsung SSD 980 PRO 2TB |
+| OS  | NixOS, macOS Sequoia 15.7.5 |
 | Screen  | 15.6" 3840x2160 Touchscreen  | 
 
 > [!CAUTION]
 > [You must set the EFI Variables before booting this EFI](https://github.com/sambow23/Dell-Precision-5540-macOS/discussions/6)
 
 ## Issues
-#### [External Displays](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/3)
-#### [System Stutter](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/2#issuecomment-2458689714)
 #### [Headphones](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/4)
 
 ## Hardware compatibility
