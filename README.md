@@ -25,6 +25,7 @@
 - GPU acceleration and video codecs
 - SSD
 - Wi-Fi (itlwm)
+- Bluetooth
 - All USB ports
 - USB-C Video
 - Trackpad
@@ -42,7 +43,6 @@
 
 #### Untested
 - iCloud Services
-- Bluetooth (no kext installed yet)
 
 #### Not working
 - Fingerprint Sensor (no support)
