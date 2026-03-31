@@ -1,5 +1,5 @@
 # Dell Precision 5540
-<img src="https://i.imgur.com/Uql3mVu.png" width="650">
+<img src="https://github.com/user-attachments/assets/15f5df39-a308-485f-a966-46b70937a8d3" width="650" />
 
 | Hardware  | |
 | ------------- | ------------- |
