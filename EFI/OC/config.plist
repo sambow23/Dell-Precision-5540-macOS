@@ -616,6 +616,8 @@
 				<data>BAAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
 				<key>rps-control</key>
 				<data>AQAAAA==</data>
 			</dict>
@@ -658,6 +660,47 @@
 				<string>TU117GLM [Quadro T1000 Mobile]</string>
 				<key>pci-aspm-default</key>
 				<integer>2</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0/0,0/1,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]</string>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>Cannon Lake Mobile PCH SATA AHCI Controller</string>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>AwEAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1267,7 +1310,38 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Force ASPM L1 - IOPCIFamily force aspmCaps L1 bit</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>wegKicGD4QM=</data>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOPCIFamily</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.0.0</string>
+				<key>Replace</key>
+				<data>wegKicGDyQI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -1532,7 +1606,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>revpatch=sbvmm dk.e1000=0 e1000=0</string>
+				<string>revpatch=sbvmm -nvmefaspm -btlfxa2dpcheck dk.e1000=0 e1000=0</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 				<key>bluetoothInternalControllerInfo</key>
@@ -1568,13 +1642,13 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<true/>
+			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02935303GUN9PRUE</string>
+			<string>C02053270J90000FB</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data>GE8y99Dj</data>
 			<key>SpoofVendor</key>
@@ -1582,11 +1656,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Upgradable</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,1</string>
+			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z99Y4MD6N</string>
+			<string>C02DX0RXMD6T</string>
 			<key>SystemUUID</key>
-			<string>8CECD862-2A1D-49CC-80D4-4097E24984CB</string>
+			<string>734752B4-26EE-4EE8-91E7-0357D29D19CB</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
