@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Power off unsupported NVIDIA Quadro T1000 and restore patched _WAK wrapper</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DGPU.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -90,7 +98,7 @@
 				<key>Comment</key>
 				<string>Hotplug for the Thunderbolt Controller, eGPUs do not work at the moment</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-TB-5540.aml</string>
 			</dict>
