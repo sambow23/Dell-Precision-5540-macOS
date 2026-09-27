@@ -18,6 +18,10 @@
 ## Issues
 #### [Headphones](https://github.com/sambow23/Dell-Precision-5540-macOS/issues/4)
 
+## Tips
+- After a clean boot, put the system to sleep then wake it to reduce overall power usage and gain extra battery life
+   - (This appears to happen in other OS's too, so I believe this is a BIOS/hardware quirk)
+
 ## Hardware compatibility
 
 #### What works
